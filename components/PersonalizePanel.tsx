@@ -1,8 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { CareerId, PersonalizedPlan, PersonalizeResponse } from "@/lib/types";
 import { CourseChip } from "@/components/CourseChip";
+import { onPlanRemaining, useAcademicRecord, type PlanRemainingRequest } from "@/lib/academic-record";
+import { plannedDoneCodes } from "@/lib/progress";
+import { normalizeRecordCode } from "@/lib/record-parse";
 
 const STATUSES = [
   { value: "high-school", label: "High school" },
@@ -10,6 +13,14 @@ const STATUSES = [
   { value: "current-mdc-student", label: "Current MDC student" },
   { value: "career-changer", label: "Career changer" },
 ] as const;
+
+type Status = (typeof STATUSES)[number]["value"];
+
+interface RunParams {
+  status: Status;
+  completedCourseCodes: string[];
+  goals: string;
+}
 
 const AGENTS = ["Interpreting your profile", "Adjusting your path", "Writing your plan"] as const;
 
@@ -21,9 +32,18 @@ export function PersonalizePanel({
   courseOptions: string[];
 }) {
   const uniqueCourses = useMemo(() => [...new Set(courseOptions)].sort(), [courseOptions]);
-  const [status, setStatus] = useState<(typeof STATUSES)[number]["value"]>("new-mdc-student");
+  const [status, setStatus] = useState<Status>("new-mdc-student");
   const [attendance, setAttendance] = useState<"full-time" | "part-time">("full-time");
-  const [completed, setCompleted] = useState<string[]>([]);
+  const record = useAcademicRecord();
+  const fromRecord = useMemo(() => {
+    const done = plannedDoneCodes(record, true);
+    return new Set(uniqueCourses.filter((c) => done.has(normalizeRecordCode(c))));
+  }, [record, uniqueCourses]);
+  const sectionRef = useRef<HTMLElement>(null);
+  // Manual chip toggles win over the saved record.
+  const [overrides, setOverrides] = useState<Record<string, boolean>>({});
+  const isCompleted = (code: string) => overrides[code] ?? fromRecord.has(code);
+  const completed = uniqueCourses.filter(isCompleted);
   const [hours, setHours] = useState("");
   const [goals, setGoals] = useState("");
   const [loading, setLoading] = useState(false);
@@ -32,11 +52,10 @@ export function PersonalizePanel({
   const [result, setResult] = useState<(PersonalizeResponse & { plan: PersonalizedPlan }) | null>(null);
 
   function toggleCourse(code: string) {
-    setCompleted((prev) => (prev.includes(code) ? prev.filter((c) => c !== code) : [...prev, code]));
+    setOverrides((prev) => ({ ...prev, [code]: !isCompleted(code) }));
   }
 
-  async function onSubmit(e: React.FormEvent) {
-    e.preventDefault();
+  async function run({ status, completedCourseCodes, goals }: RunParams) {
     setError(null);
     setLoading(true);
     setAgentStep(0);
@@ -52,7 +71,7 @@ export function PersonalizePanel({
           careerId,
           status,
           attendance,
-          completedCourseCodes: completed,
+          completedCourseCodes,
           hoursWorkedPerWeek: hours === "" ? undefined : Number(hours),
           goals: goals.trim() || undefined,
         }),
@@ -69,8 +88,24 @@ export function PersonalizePanel({
     }
   }
 
+  function onSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    void run({ status, completedCourseCodes: completed, goals });
+  }
+
+  // "Plan what's left" in the progress tracker: use the whole record and run right away.
+  const planRemaining = useEffectEvent(({ goal }: PlanRemainingRequest) => {
+    const nextGoals = goal ?? goals;
+    setStatus("current-mdc-student");
+    setOverrides({});
+    setGoals(nextGoals);
+    sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    void run({ status: "current-mdc-student", completedCourseCodes: [...fromRecord], goals: nextGoals });
+  });
+  useEffect(() => onPlanRemaining(planRemaining), []);
+
   return (
-    <section className="my-10 border border-mdc-blue/40 bg-white/70 p-5 sm:p-6">
+    <section ref={sectionRef} className="scroll-mt-20 my-10 border border-mdc-blue/40 bg-white/70 p-5 sm:p-6">
       <h2 className="font-display text-xl font-bold text-mdc-ink">Personalize my path</h2>
       <p className="mt-2 text-sm text-mdc-muted">
         A three-agent Swarms pipeline adjusts the catalog path to your situation. Results are labeled AI and
@@ -126,10 +161,13 @@ export function PersonalizePanel({
           />
         </label>
         <fieldset className="sm:col-span-2">
-          <legend className="text-sm text-mdc-muted">Already completed (from this pathway)</legend>
+          <legend className="text-sm text-mdc-muted">
+            Already completed (from this pathway)
+            {fromRecord.size ? ` · ${fromRecord.size} filled in from your saved MAP (completed or in progress)` : ""}
+          </legend>
           <div className="mt-2 flex max-h-40 flex-wrap gap-2 overflow-y-auto">
             {uniqueCourses.map((code) => {
-              const on = completed.includes(code);
+              const on = isCompleted(code);
               return (
                 <button
                   key={code}

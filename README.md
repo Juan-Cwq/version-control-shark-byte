@@ -1,6 +1,6 @@
 # shark-byte 2026 — Cone of Uncertainty
 
-MDC career pathway navigator. Catalog facts come from `data/mdc_pathways.json`; Swarms agents only personalize and tutor.
+MDC career pathway navigator. Catalog facts come from `data/Courses_data/mdc_pathways.json`; Swarms agents only personalize and tutor.
 
 ## Setup
 

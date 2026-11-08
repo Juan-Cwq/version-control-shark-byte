@@ -2,11 +2,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CourseChip } from "@/components/CourseChip";
 import { PersonalizePanel } from "@/components/PersonalizePanel";
+import { ProgressTracker } from "@/components/ProgressTracker";
 import { StudyBuddy } from "@/components/StudyBuddy";
 import { UnverifiedBadge } from "@/components/UnverifiedBadge";
 import { formatPay, formatUsd } from "@/lib/format";
 import { CAREER_IDS, type CareerId } from "@/lib/types";
-import { getCareer, getCourseObjects, lookupCourse } from "@/lib/pathways";
+import { extractCourseCodes, getCareer, getCourseObjects, lookupCourse } from "@/lib/pathways";
+import { getAllProgressPlans } from "@/lib/progress-plan";
 
 export function generateStaticParams() {
   return CAREER_IDS.map((id) => ({ id }));
@@ -27,7 +29,16 @@ export default async function CareerPage({ params }: { params: Promise<{ id: str
     return { code, label: `Quiz me on ${code}${short} basics` };
   });
 
+  const allPlans = getAllProgressPlans();
+  const progressPlan = allPlans.find((p) => p.careerId === careerId)!;
+  // Split compounds ("CTS 1134 or CTS 1650") so each course is its own chip.
+  const courseOptions = getCourseObjects(career).flatMap((c) => {
+    const parts = extractCourseCodes(c.code);
+    return parts.length ? parts : [c.code];
+  });
+
   const sections = [
+    { id: "progress", label: "My Progress" },
     { id: "explore", label: "Explore" },
     { id: "path", label: "Your Path" },
     { id: "cost", label: "Time & Cost" },
@@ -62,7 +73,9 @@ export default async function CareerPage({ params }: { params: Promise<{ id: str
           ))}
         </nav>
 
-        <PersonalizePanel careerId={careerId} courseOptions={getCourseObjects(career).map((c) => c.code)} />
+        <ProgressTracker plan={progressPlan} allPlans={allPlans} />
+
+        <PersonalizePanel careerId={careerId} courseOptions={courseOptions} />
 
         <section id="explore" className="scroll-mt-20 border-b border-mdc-line py-12">
           <h2 className="font-display text-2xl font-bold text-mdc-ink">Explore</h2>

@@ -1,7 +1,7 @@
 // lib/pathways.ts
-// The only module that reads /data/mdc_pathways.json. Validates once at load.
+// The only module that reads /data/Courses_data/mdc_pathways.json. Validates once at load.
 
-import raw from "../data/mdc_pathways.json";
+import raw from "../data/Courses_data/mdc_pathways.json";
 import { PathwaysFile, type Career, type CareerId, type Course, type PersonalizedPlan } from "./types";
 
 const parsed = PathwaysFile.safeParse(raw);
@@ -107,6 +107,24 @@ export function getSharedRules() {
     cost_basis: DATA.cost_basis,
     meta: DATA.meta,
   };
+}
+
+/** Standalone programs (e.g. Applied AI A.S. 25080 / B.S. S9520) by program code. */
+export function getProgram(code: string) {
+  return DATA.programs[code] ?? null;
+}
+
+export function getPrograms() {
+  return Object.values(DATA.programs);
+}
+
+/** Shared credit values for gen-ed and common courses, keyed by code ("ENC 1101"). */
+export function getCourseCredits() {
+  return DATA.course_credits ?? null;
+}
+
+export function getGeneralEducation() {
+  return DATA.general_education ?? null;
 }
 
 /** Program codes the AI may choose as pathwayChoice.code. */

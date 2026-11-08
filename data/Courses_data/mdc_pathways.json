@@ -79,6 +79,1755 @@
       ]
     }
   ],
+  "general_education": {
+    "meta": {
+      "program": "Associate in Arts Degree",
+      "degree": "Associate in Arts",
+      "institution": "Miami Dade College",
+      "effective_term": "Fall 2024 (2247)",
+      "total_credits": 60,
+      "effective_term_note": "Effective term depends on your most recent term of admission to the College. Students admitted before Fall 2024 can view their effective term on the Academic Requirements page in MDConnect (mdconnect.mdc.edu).",
+      "source": "MDC Associate in Arts Pathway Guide, effective Fall 2024 (user-provided PDF)"
+    },
+    "credit_summary": {
+      "general_education": 36,
+      "state_core": 15,
+      "mdc_core": 21,
+      "pathway_electives": 24
+    },
+    "legend": {
+      "*": "Includes all courses within associated prefix",
+      "**": "General education courses require a grade of C or higher to satisfy the requirement",
+      "W": "Writing Intensive Course",
+      "C": "Computational Course"
+    },
+    "general_education": {
+      "communications": {
+        "credits": 6,
+        "min_grade": "C",
+        "state_core": [
+          {
+            "code": "ENC 1101",
+            "title": "English Composition 1",
+            "tags": [
+              "W"
+            ]
+          }
+        ],
+        "mdc_core": [
+          {
+            "code": "ENC 1102",
+            "title": "English Composition 2",
+            "tags": [
+              "W"
+            ]
+          }
+        ]
+      },
+      "mathematics": {
+        "credits": 6,
+        "min_grade": "C",
+        "rule": "Select 1 course from State Core and 1 course from MDC Core. Lab units are not allowed in this area.",
+        "state_core": [
+          {
+            "code": "MAC 1105",
+            "title": "College Algebra",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MAC 2311",
+            "title": "Calculus and Analytical Geometry 1",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MGF 1130",
+            "title": "Mathematical Thinking",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "STA 2023",
+            "title": "Statistical Methods",
+            "tags": [
+              "C"
+            ]
+          }
+        ],
+        "mdc_core": [
+          {
+            "code": "MAC*",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MAD 1100",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MAD 2104",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MAP*",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MAS 2103",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "MGF*",
+            "tags": [
+              "C"
+            ]
+          },
+          {
+            "code": "QMB 2100"
+          },
+          {
+            "code": "STA 2023",
+            "tags": [
+              "C"
+            ]
+          }
+        ]
+      },
+      "oral_communications": {
+        "credits": 3,
+        "min_grade": "C",
+        "rule": "Select 1 course.",
+        "options": [
+          {
+            "code": "ENC 2300",
+            "title": "Advanced Composition and Communications",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "LIT 2480",
+            "title": "Issues in Literature and Culture",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "SPC 1017",
+            "title": "Introduction to Communication",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "SPC 2608",
+            "title": "Introduction to Public Speaking",
+            "tags": [
+              "W"
+            ]
+          }
+        ]
+      },
+      "humanities": {
+        "credits": 6,
+        "min_grade": "C",
+        "rule": "Select 1 course from State Core and 1 course from MDC Core.",
+        "state_core": [
+          {
+            "code": "ARH 1000",
+            "title": "Art Appreciation"
+          },
+          {
+            "code": "HUM 1020",
+            "title": "Humanities"
+          },
+          {
+            "code": "LIT 2000",
+            "title": "Introduction to Literature",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "MUL 1010",
+            "title": "Music Appreciation"
+          },
+          {
+            "code": "PHI 2010",
+            "title": "Introduction to Philosophy",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "THE 2000",
+            "title": "Theatre Appreciation",
+            "tags": [
+              "W"
+            ]
+          }
+        ],
+        "mdc_core": [
+          {
+            "code": "ARC 2701",
+            "title": "History of Architecture 1"
+          },
+          {
+            "code": "ARC 2702",
+            "title": "History of Architecture 2",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "ARH 1000",
+            "title": "Art Appreciation"
+          },
+          {
+            "code": "ARH 2050",
+            "title": "Art History 1"
+          },
+          {
+            "code": "ARH 2051",
+            "title": "Art History 2",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "ARH 2740",
+            "title": "Cinema Appreciation",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "DAN 2100",
+            "title": "Dance Appreciation"
+          },
+          {
+            "code": "DAN 2130",
+            "title": "Dance History 1",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "HUM 1020",
+            "title": "Humanities"
+          },
+          {
+            "code": "IND 1100",
+            "title": "History of Interiors 1"
+          },
+          {
+            "code": "IND 1130",
+            "title": "History of Interiors 2",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "LIT 2000",
+            "title": "Introduction to Literature",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "LIT 2120",
+            "title": "A Survey of World Literature 2",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "MUH 2111",
+            "title": "Survey of Music History 1"
+          },
+          {
+            "code": "MUH 2112",
+            "title": "Survey of Music History 2",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "MUL 1010",
+            "title": "Music Appreciation"
+          },
+          {
+            "code": "MUL 2380",
+            "title": "Jazz and Popular Music in America",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "PHI 2010",
+            "title": "Introduction to Philosophy",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "PHI 2600",
+            "title": "Introduction to Ethics",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "THE 2000",
+            "title": "Theater Appreciation",
+            "tags": [
+              "W"
+            ]
+          }
+        ]
+      },
+      "social_sciences": {
+        "credits": 6,
+        "min_grade": "C",
+        "rule": "Select 1 course from State Core and 1 course from MDC Core. To meet the Civic Literacy Competency Requirement, one selection should be AMH 2010, AMH 2020 or POS 2041.",
+        "state_core": [
+          {
+            "code": "AMH 2010",
+            "title": "History of the US to 1877"
+          },
+          {
+            "code": "AMH 2020",
+            "title": "History of the US Since 1877"
+          },
+          {
+            "code": "ANT 2000",
+            "title": "Introduction to Anthropology"
+          },
+          {
+            "code": "ECO 2013",
+            "title": "Principles of Economics (Macro)",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "POS 2041",
+            "title": "American Federal Government"
+          },
+          {
+            "code": "PSY 2012",
+            "title": "Introduction to Psychology"
+          }
+        ],
+        "mdc_core": [
+          {
+            "code": "AMH 2010",
+            "title": "History of the US to 1877"
+          },
+          {
+            "code": "AMH 2020",
+            "title": "History of the US Since 1877"
+          },
+          {
+            "code": "ANT 2000",
+            "title": "Introduction to Anthropology"
+          },
+          {
+            "code": "ANT 2410",
+            "title": "Introduction to Cultural Anthropology"
+          },
+          {
+            "code": "CLP 1006",
+            "title": "Psychology of Personal Effectiveness"
+          },
+          {
+            "code": "DEP 2000",
+            "title": "Human Growth and Development"
+          },
+          {
+            "code": "ECO 2013",
+            "title": "Principles of Economics (Macro)",
+            "tags": [
+              "W"
+            ]
+          },
+          {
+            "code": "ISS 1120",
+            "title": "The Social Environment"
+          },
+          {
+            "code": "ISS 1161",
+            "title": "The Individual in Society"
+          },
+          {
+            "code": "POS 2041",
+            "title": "American Federal Government"
+          },
+          {
+            "code": "PSY 2012",
+            "title": "Introduction to Psychology"
+          },
+          {
+            "code": "SYG 2000",
+            "title": "Introduction to Sociology"
+          },
+          {
+            "code": "WOH 2012",
+            "title": "History of World Civilization to 1789"
+          },
+          {
+            "code": "WOH 2022",
+            "title": "History of World Civilization From 1789"
+          }
+        ]
+      },
+      "natural_sciences": {
+        "credits": 6,
+        "min_grade": "C",
+        "rule": "Select 1 course from State Core and 1 course from MDC Core. Lab units are not allowed in this area.",
+        "state_core": [
+          {
+            "code": "AST 1002",
+            "title": "Descriptive Astronomy"
+          },
+          {
+            "code": "BSC 1005",
+            "title": "General Education Biology"
+          },
+          {
+            "code": "BSC 2010",
+            "title": "Principles of Biology"
+          },
+          {
+            "code": "BSC 2085",
+            "title": "Human Anatomy and Physiology I"
+          },
+          {
+            "code": "CHM 1020",
+            "title": "General Education Chemistry"
+          },
+          {
+            "code": "CHM 1045",
+            "title": "General Chemistry & Qualitative Analysis"
+          },
+          {
+            "code": "ESC 1000",
+            "title": "General Education Earth Science"
+          },
+          {
+            "code": "EVR 1001",
+            "title": "Introduction to Environmental Science"
+          },
+          {
+            "code": "GLY 1010",
+            "title": "Physical Geology"
+          },
+          {
+            "code": "OCE 1001",
+            "title": "Introduction to Oceanography"
+          },
+          {
+            "code": "PHY 1020",
+            "title": "General Education Physics"
+          },
+          {
+            "code": "PHY 2048",
+            "title": "Physics with Calculus 1"
+          },
+          {
+            "code": "PHY 2053",
+            "title": "Physics (without Calculus) 1"
+          }
+        ],
+        "mdc_core": [
+          {
+            "code": "AST 1002",
+            "title": "Descriptive Astronomy"
+          },
+          {
+            "code": "BOT 1010",
+            "title": "Botany"
+          },
+          {
+            "code": "BSC 1005",
+            "title": "General Education Biology"
+          },
+          {
+            "code": "BSC 1030",
+            "title": "Social Issues in Biology"
+          },
+          {
+            "code": "BSC 1050",
+            "title": "Biology & Environment"
+          },
+          {
+            "code": "BSC 1084",
+            "title": "Functional Human Anatomy"
+          },
+          {
+            "code": "BSC 2010",
+            "title": "Principles of Biology"
+          },
+          {
+            "code": "BSC 2020",
+            "title": "Human Biology: Fundamentals of Anatomy/Physiology"
+          },
+          {
+            "code": "BSC 2085",
+            "title": "Anatomy and Physiology I"
+          },
+          {
+            "code": "BSC 2250",
+            "title": "Natural History of South Florida"
+          },
+          {
+            "code": "ESC 1000",
+            "title": "General Education Earth Science"
+          },
+          {
+            "code": "EVR 1001",
+            "title": "Introduction to Environmental Science"
+          },
+          {
+            "code": "GLY 1010",
+            "title": "Physical Geology"
+          },
+          {
+            "code": "HUN 1201",
+            "title": "Essentials of Human Nutrition"
+          },
+          {
+            "code": "OCB 1010",
+            "title": "Introduction to Marine Biology"
+          },
+          {
+            "code": "OCE 1001",
+            "title": "Introduction to Oceanography"
+          },
+          {
+            "code": "PCB 2033",
+            "title": "Introduction to Ecology"
+          },
+          {
+            "code": "PSC 1121",
+            "title": "General Education Physical Science"
+          },
+          {
+            "code": "PSC 1515",
+            "title": "Energy in the Natural Environment"
+          },
+          {
+            "code": "ZOO 1010",
+            "title": "Zoology"
+          },
+          {
+            "code": "CHM*"
+          },
+          {
+            "code": "GLY*"
+          },
+          {
+            "code": "MET*"
+          },
+          {
+            "code": "OCE*"
+          },
+          {
+            "code": "PHY*"
+          }
+        ]
+      },
+      "general_education_elective": {
+        "credits": 3,
+        "rule": "Select one course from any of the following options.",
+        "options": [
+          "AFH 2000",
+          "AMH*",
+          "AML*",
+          "ANT*",
+          "ARC 2701",
+          "ARC 2702",
+          "ARH 1000",
+          "ARH 2050",
+          "ARH 2051",
+          "ARH 2402",
+          "ARH 2740",
+          "ARH 2857",
+          "ASL*",
+          "AST*",
+          "BOT 1*",
+          "BOT 2*",
+          "BSC 1*",
+          "BSC 2*",
+          "CGS 1060C",
+          "CHI*",
+          "CHM 1*",
+          "CHM 2*",
+          "CLP*",
+          "CPO*",
+          "CRW*",
+          "DAN 2100",
+          "DAN 2130",
+          "DAN 2131",
+          "DEP*",
+          "EAB 1001",
+          "ECO*",
+          "EDF 1005",
+          "EDF 2144",
+          "EEX 2000",
+          "ENC*",
+          "ENG*",
+          "ENL*",
+          "ESC 1000",
+          "EUH*",
+          "EVR*",
+          "FRE*",
+          "FRW*",
+          "GEO 2420",
+          "GER*",
+          "GLY 1*",
+          "HLP*",
+          "HSC 2400",
+          "HUM*",
+          "HUN*",
+          "IND 1100",
+          "IND 1130",
+          "INP 2390",
+          "INR*",
+          "ISS*",
+          "ITA*",
+          "JPN*",
+          "LAH*",
+          "LIT*",
+          "MAC*",
+          "MAD 1100",
+          "MAD 2104",
+          "MAP*",
+          "MAS 2103",
+          "MCB 2*",
+          "MET*",
+          "MGF*",
+          "MUH*",
+          "MUL*",
+          "OCB*",
+          "OCE 1001",
+          "PCB 2*",
+          "PHI*",
+          "PHM 2300",
+          "PHY 1*",
+          "PHY 2*",
+          "POR*",
+          "POS*",
+          "POT 2014",
+          "PSC*",
+          "PSB*",
+          "PSY*",
+          "QMB 2100",
+          "REL*",
+          "RUS*",
+          "SOP*",
+          "SPC*",
+          "SPN*",
+          "SPW*",
+          "STA 2023",
+          "SYG*",
+          "THE 2000",
+          "WOH*"
+        ],
+        "excluded": [
+          "ACG 2021",
+          "ACG 2021L",
+          "AMH 2070",
+          "AMH 2079",
+          "ARC 2765",
+          "ARC 2767",
+          "ASL 1906",
+          "BSC 2943L",
+          "CLP 2431",
+          "CLP 2470",
+          "COP 1332",
+          "COP 1334",
+          "COP 2270",
+          "DEP 2402",
+          "DEP 2481",
+          "ECO 2071",
+          "ENC 1112",
+          "ENC 1113",
+          "EUH 2068",
+          "EVR 1001L",
+          "FRW 2011",
+          "GLY 1100L",
+          "HCW 2020",
+          "HUN 1012",
+          "LAH 2023",
+          "LAH 2025",
+          "LIT 2174",
+          "PCB 2061",
+          "POS 2293",
+          "PSC 1191L",
+          "SPC 2940",
+          "SPT 2842",
+          "SYG 2010",
+          "SYG 2430"
+        ]
+      }
+    },
+    "pathway_electives": {
+      "credits": 24,
+      "rule": "Select electives by pathway and/or specialization; consult an advisor and your transfer institution. General education courses not used to meet gen-ed requirements may count here."
+    },
+    "competencies": {
+      "computer": {
+        "attempt_by_credit": 16,
+        "satisfy_by_credit": 31,
+        "options": [
+          "CGS 1060C",
+          "An equivalent college course",
+          "The College's approved computer competency test"
+        ]
+      },
+      "foreign_language": {
+        "options": [
+          "Foreign Language Competency (FLC) standardized examinations"
+        ],
+        "courses": [
+          "ASL 1150C",
+          "CHI 1121",
+          "FRE 1121",
+          "GER 1121",
+          "ITA 1121",
+          "JPN 1121",
+          "POR 1121",
+          "RUS 1121",
+          "SPN 1121"
+        ]
+      },
+      "civic_literacy": {
+        "requirement": "Complete a civic literacy course (AMH 2010, AMH 2020 or POS 2041) AND pass the Florida Civic Literacy Examination (FCLE).",
+        "applies_to": "AA or baccalaureate students entering an FCS or SUS institution in 2021-2022 or later; AS students entering in 2022-2023 or later.",
+        "exception": "First-time-in-college students who entered between Fall 2018 and Summer 2021 may pass a course or an approved assessment."
+      }
+    },
+    "first_year_experience": {
+      "default": {
+        "code": "SLS 1106",
+        "title": "First Year Experience Seminar"
+      },
+      "alternatives_by_advisor": [
+        {
+          "code": "IDH 1001",
+          "title": "Honors Leadership Seminar 1"
+        },
+        {
+          "code": "IDH 1002",
+          "title": "Honors Leadership Seminar 2"
+        },
+        {
+          "code": "IDH 2003",
+          "title": "Honors Leadership Seminar 3"
+        },
+        {
+          "code": "IDH 2004",
+          "title": "Honors Leadership Seminar 4"
+        },
+        {
+          "code": "SLS 1125",
+          "title": "Student Support Seminar"
+        },
+        {
+          "code": "SLS 1502",
+          "title": "College Study Skills"
+        },
+        {
+          "code": "SLS 1505",
+          "title": "College Survival Skills"
+        },
+        {
+          "code": "SLS 1510",
+          "title": "Preparing for Student Success"
+        }
+      ]
+    },
+    "gordon_rule": {
+      "W": "Six semester hours of English coursework and six semester hours of additional coursework requiring college-level writing through multiple assignments.",
+      "C": "Six semester hours of mathematics coursework at the level of college algebra or higher.",
+      "reference": "State Rule 6A-10.030"
+    },
+    "general_education_standards": {
+      "communication": "Courses must afford students the ability to communicate effectively, including writing clearly and public speaking.",
+      "humanities": "Courses must afford students the ability to think critically through subjects concerned with human culture, especially literature, history, art, music, and philosophy, including selections from the Western canon.",
+      "mathematics": "Courses must afford students mastery of foundational mathematical and computation models and methods by applying them in problem solving.",
+      "natural_science": "Courses must afford students the ability to critically examine and evaluate the principles of the scientific method, model construction, and use the scientific method to explain natural experiences and phenomena.",
+      "social_science": "Courses must afford students an understanding of basic social and behavioral science concepts and principles used in analyzing behavior and past and present social, political, and economic issues.",
+      "reference": "Rule 6A-14.0303"
+    },
+    "advisement_offices": [
+      {
+        "campus": "Hialeah",
+        "room": "2101",
+        "phone": "305-237-8794"
+      },
+      {
+        "campus": "Homestead",
+        "room": "C210",
+        "phone": "305-237-5046"
+      },
+      {
+        "campus": "Padrón",
+        "room": "1101",
+        "phone": "305-237-6133"
+      },
+      {
+        "campus": "Kendall",
+        "room": "R243",
+        "phone": "305-237-2125"
+      },
+      {
+        "campus": "Medical",
+        "room": "1223",
+        "phone": "305-237-4141"
+      },
+      {
+        "campus": "North",
+        "room": "1104",
+        "phone": "305-237-1425"
+      },
+      {
+        "campus": "Wolfson",
+        "room": "2301",
+        "phone": "305-237-3077"
+      },
+      {
+        "campus": "West",
+        "room": "2114",
+        "phone": "305-237-8947"
+      },
+      {
+        "campus": "Meek Center",
+        "room": "1102-02",
+        "phone": "305-237-1900"
+      }
+    ],
+    "contact": {
+      "call_center": "305-237-8888",
+      "email": "mdcinfo@mdc.edu"
+    },
+    "official_requirements_note": "Official graduation requirements are on the Academic Requirements page in MDConnect (mdconnect.mdc.edu)."
+  },
+  "course_credits": {
+    "compiled": "2026-11-07",
+    "notes": [
+      "AA pathway guides list courses as options within requirements, not courses everyone must take (MDC AA Pathway Guide, effective Fall 2026).",
+      "Gen-ed lab credits are not allowed in the AA natural science area, so labs are excluded unless a corequisite is required.",
+      "The Computer Competency Test (CCT) demonstrates computer competency but awards no course credit. CGS 1060C is a 4-credit course.",
+      "Confirm against MDConnect Academic Requirements and the current FIU transfer guide."
+    ],
+    "sources": [
+      "https://cuv.mdc.edu/testing/tests/cct"
+    ],
+    "courses": {
+      "ENC 1101": {
+        "title": "English Composition 1",
+        "credits": 3,
+        "source": "https://cuv.mdc.edu/asa/documents/course-syllabus/ENC1101.pdf"
+      },
+      "ENC 1102": {
+        "title": "English Composition 2",
+        "credits": 3,
+        "source": "https://mdc.edu/academics/programs/ps/associate-in-arts-pathway-guide-effective-2025.pdf"
+      },
+      "SLS 1106": {
+        "title": "First Year Experience Seminar",
+        "credits": 1,
+        "source": "https://www.mdc.edu/asa/documents/competencies/pdf/SLS1106%20First%20Year%20Experience%20Seminar.pdf"
+      },
+      "ARH 1000": {
+        "title": "Art Appreciation",
+        "credits": 3,
+        "source": "https://www3.mdc.edu/academics/programs/ps/10910.pdf"
+      },
+      "MGF 1130": {
+        "title": "Mathematical Thinking",
+        "credits": 3,
+        "source": "https://mdc.edu/academics/programs/ps/S9210.pdf"
+      },
+      "BSC 1005": {
+        "title": "General Education Biology",
+        "credits": 3,
+        "source": "https://www3.mdc.edu/academics/programs/ps/10910.pdf"
+      },
+      "PHI 2010": {
+        "title": "Introduction to Philosophy",
+        "credits": 3,
+        "source": "https://www3.mdc.edu/academics/programs/ps/10910.pdf"
+      },
+      "MAC 1105": {
+        "title": "College Algebra",
+        "credits": 3,
+        "source": "https://mdc.edu/academics/programs/ps/associate-in-arts-pathway-guide-effective-2025.pdf"
+      },
+      "STA 2023": {
+        "title": "Statistical Methods",
+        "credits": 3,
+        "source": "https://www3.mdc.edu/academics/programs/ps/10910.pdf"
+      },
+      "CGS 1060C": {
+        "title": "Introduction to Computer Technology & Applications",
+        "credits": 4,
+        "source": "https://mdc.edu/academics/programs/ps/S9502.pdf"
+      },
+      "AMH 2010": {
+        "title": "History of the US to 1877",
+        "credits": 3
+      },
+      "AMH 2020": {
+        "title": "History of the US Since 1877",
+        "credits": 3
+      },
+      "POS 2041": {
+        "title": "American Federal Government",
+        "credits": 3
+      },
+      "CHM 1020": {
+        "title": "General Education Chemistry",
+        "credits": 3
+      },
+      "ESC 1000": {
+        "title": "General Education Earth Science",
+        "credits": 3
+      },
+      "EVR 1001": {
+        "title": "Introduction to Environmental Science",
+        "credits": 3
+      },
+      "BOT 1010": {
+        "title": "Botany",
+        "credits": 3,
+        "corequisite": "BOT 1010L",
+        "note": "Its 1-credit lab (BOT 1010L) is a required corequisite but doesn't count in the AA natural-science block.",
+        "source": "https://mdconnect.mdc.edu/academics/programs/csg/2024/AA_LandscapeArchitecture_csg.pdf"
+      }
+    }
+  },
+  "programs": {
+    "25080": {
+      "code": "25080",
+      "name": "Applied Artificial Intelligence",
+      "degree": "AS",
+      "credits": 60,
+      "effective_term": "Fall 2024 (2247)",
+      "description": "Covers the AI project lifecycle, AI ethics, machine learning, data collection and classification, natural language processing, AI virtual assistants and computer vision. Aimed at people entering or upskilling as AI Developers or AI Specialists.",
+      "sources": [
+        "https://tropicalgreen.mdc.edu/academics/programs/ps/25080.pdf",
+        "https://www.mdc.edu/academics/programs/csg/AS_AppliedArtificialIntelligence_csg.pdf",
+        "https://cuv.mdc.edu/appliedai",
+        "https://www.mdc.edu/academics/programs/csg/CCC_ArtificialIntelligencePractitioner_csg.pdf",
+        "https://www.mdc.edu/student-financial-services/tuition-fees/"
+      ],
+      "admission": {
+        "prerequisites": [],
+        "notes": [
+          "Open admission to MDC. ENC 1101 requires meeting developmental reading/writing requirements; MAC 1105 and STA 2023 require MAT 1033 (or MGF 1131 for STA 2023) or placement."
+        ]
+      },
+      "blocks": {
+        "general_education": 15,
+        "major_courses": 37,
+        "program_electives": 8
+      },
+      "gen_ed": [
+        {
+          "label": "Communications",
+          "credits": 3,
+          "options": [
+            "ENC 1101"
+          ]
+        },
+        {
+          "label": "Humanities",
+          "credits": 3,
+          "options": [
+            "ARH 1000",
+            "HUM 1020",
+            "LIT 2000",
+            "MUL 1010",
+            "PHI 2010",
+            "THE 2000"
+          ]
+        },
+        {
+          "label": "Mathematics",
+          "credits": 3,
+          "options": [
+            "MAC 1105"
+          ]
+        },
+        {
+          "label": "Natural science",
+          "credits": 3,
+          "options": [
+            "AST 1002",
+            "BSC 1005",
+            "CHM 1020",
+            "ESC 1000",
+            "EVR 1001",
+            "GLY 1010",
+            "OCE 1001",
+            "PHY 1020"
+          ]
+        },
+        {
+          "label": "Social science",
+          "credits": 3,
+          "options": [
+            "AMH 2010",
+            "AMH 2020",
+            "POS 2041"
+          ],
+          "note": "Satisfies civic literacy coursework; a passing score on an approved assessment is also required."
+        }
+      ],
+      "courses": [
+        {
+          "code": "CAI 1001C",
+          "title": "Artificial Intelligence (AI) Thinking",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "COP 1047C",
+          "title": "Introduction to Python Programming",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": [],
+          "certification": "Python Coding Specialist"
+        },
+        {
+          "code": "CAI 2100C",
+          "title": "Machine Learning Foundations",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 1001C",
+            "COP 1047C"
+          ]
+        },
+        {
+          "code": "PHI 2680",
+          "title": "Artificial Intelligence and Ethics",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "CAI 2300C",
+          "title": "Introduction to Natural Language Processing",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 2100C"
+          ]
+        },
+        {
+          "code": "CAI 2840C",
+          "title": "Introduction to Computer Vision",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 2100C"
+          ]
+        },
+        {
+          "code": "CAI 2820C",
+          "title": "Artificial Intelligence Application Solutions",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 2300C",
+            "CAI 2840C"
+          ]
+        },
+        {
+          "code": "CGS 1060C",
+          "title": "Introduction to Computer Technology and Applications",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": [],
+          "note": "Also satisfies computer competency"
+        },
+        {
+          "code": "CGS 1540C",
+          "title": "Database Concepts and Design",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "CTS 1145",
+          "title": "Cloud Essentials",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": [],
+          "certification": "AWS Certified Cloud Practitioner"
+        },
+        {
+          "code": "STA 2023",
+          "title": "Statistical Methods",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "MAT 1033 or MGF 1131"
+          ]
+        }
+      ],
+      "electives": {
+        "credits_total": 8,
+        "slot_credits": 4,
+        "slot_credits_basis": "Sequence guide term totals: 8 elective credits over 2 elective slots.",
+        "options": [
+          {
+            "code": "CAP 1788",
+            "title": "Introduction to Data Analytics",
+            "credits": 4
+          },
+          {
+            "code": "COP 2800",
+            "title": "Java Programming",
+            "credits": 4,
+            "prerequisites": [
+              "COP 1047C or COP 1334 or COP 2270"
+            ],
+            "recommended_for_bs": true
+          },
+          {
+            "code": "CTS 1120",
+            "title": "Cybersecurity Fundamentals",
+            "credits": 4
+          },
+          {
+            "code": "GEB 1432",
+            "title": "Applied Artificial Intelligence (AI) in Business",
+            "credits": 3
+          },
+          {
+            "code": "ETS 1603C",
+            "title": "Introduction to Robotics",
+            "credits": 4
+          },
+          {
+            "code": "HSC 2060",
+            "title": "Artificial Intelligence Applications in Healthcare",
+            "credits": 3,
+            "note": "Listed in the sequence guide, not the program sheet"
+          }
+        ],
+        "allowed_lists": [
+          {
+            "label": "Program sheet",
+            "patterns": [
+              "MAC*",
+              "MAD*",
+              "MAP*"
+            ]
+          }
+        ]
+      },
+      "sequence_basis": "full_program",
+      "entry_credits": 0,
+      "sequence": [
+        {
+          "term": "Semester 1",
+          "courses": [
+            "CAI 1001C",
+            "CGS 1060C",
+            "COP 1047C",
+            "MAC 1105"
+          ],
+          "credits": 14
+        },
+        {
+          "term": "Semester 2",
+          "courses": [
+            "CAI 2100C",
+            "ENC 1101",
+            "PHI 2680",
+            "STA 2023"
+          ],
+          "credits": 12
+        },
+        {
+          "term": "Semester 3 (summer)",
+          "courses": [
+            "Social science (AMH 2010/AMH 2020/POS 2041)",
+            "CGS 1540C"
+          ],
+          "credits": 7
+        },
+        {
+          "term": "Semester 4",
+          "courses": [
+            "CAI 2300C",
+            "CAI 2840C",
+            "CTS 1145",
+            "Elective"
+          ],
+          "credits": 14
+        },
+        {
+          "term": "Semester 5",
+          "courses": [
+            "CAI 2820C",
+            "Elective",
+            "Humanities",
+            "Natural science"
+          ],
+          "credits": 13
+        }
+      ],
+      "embedded_certificates": [
+        {
+          "code": "66040",
+          "name": "CCC in Artificial Intelligence Awareness",
+          "credits": 9,
+          "note": "MDC doesn't list which A.S. courses make it up; 9-credit figure from MDC news and the A.S. guide."
+        },
+        {
+          "code": "66041",
+          "name": "CCC in Artificial Intelligence Practitioner",
+          "credits": 18,
+          "courses": [
+            "CAI 1001C",
+            "COP 1047C",
+            "CAI 2100C",
+            "PHI 2680",
+            "CAI 2300C",
+            "CAI 2840C"
+          ],
+          "note": "Listed courses total 19 credits; MDC's guide states 18."
+        }
+      ],
+      "competencies": [
+        "Met by CGS 1060C (already required) or the Computer Competency Test",
+        "AMH 2010, AMH 2020 or POS 2041 plus a passing score on an approved assessment"
+      ],
+      "notes": [
+        "The A.S. covers all six BS common prerequisites.",
+        "Taking COP 2800 as an elective is recommended; it is a BS course and the prerequisite for COP 3530.",
+        "A.S. graduates may need extra gen-ed credits to reach the BS's 36 required (the A.S. has 15)."
+      ],
+      "career": {
+        "summary": "MDC targets AI Developer and AI Specialist roles. BLS has no AI-specific occupation at the associate level, so the closest BLS occupations with sub-bachelor entry are listed. The higher-paying AI occupations (Data Scientists, Software Developers) typically require the BS.",
+        "data_source": "BLS Occupational Outlook Handbook; pay is May 2025, projections 2025-2035",
+        "occupations": [
+          {
+            "title": "Computer Network Support Specialists",
+            "soc": "15-1231",
+            "median_pay": 76220,
+            "pay_low_10": 47120,
+            "pay_high_10": 127780,
+            "entry_education": "Associate's degree",
+            "jobs_2025": 152500,
+            "outlook_pct": 1,
+            "employment_change": 1900,
+            "annual_openings_group": 48700,
+            "annual_openings_note": "BLS gives openings only for all computer support specialists combined.",
+            "duties": [
+              "Test and evaluate network systems",
+              "Perform regular maintenance so networks run correctly",
+              "Troubleshoot LANs, WANs, and Internet systems"
+            ],
+            "source": "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm"
+          },
+          {
+            "title": "Computer User Support Specialists",
+            "soc": "15-1232",
+            "median_pay": 61860,
+            "pay_low_10": 40980,
+            "pay_high_10": 100540,
+            "entry_education": "Some college, no degree",
+            "jobs_2025": 750600,
+            "outlook_pct": -3,
+            "employment_change": -26200,
+            "annual_openings_group": 48700,
+            "duties": [
+              "Diagnose users' computer problems and guide them through fixes",
+              "Set up or repair equipment",
+              "Install hardware and software and train users on it",
+              "Report major or recurring problems to teams and managers"
+            ],
+            "source": "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm"
+          },
+          {
+            "title": "Web Developers",
+            "soc": "15-1254",
+            "median_pay": 92650,
+            "pay_low_10": 48100,
+            "pay_high_10": 162290,
+            "entry_education": "Bachelor's degree (BLS says requirements range from a high school diploma to a bachelor's)",
+            "jobs_2025": 87400,
+            "outlook_pct": 4,
+            "annual_openings_group": 13600,
+            "annual_openings_note": "Openings given only for web developers and digital designers combined.",
+            "duties": [
+              "Create and maintain websites",
+              "Write code such as HTML or XML",
+              "Create and test applications, interfaces, and navigation menus",
+              "Monitor website traffic and handle site speed and capacity"
+            ],
+            "source": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm"
+          }
+        ],
+        "with_bs": {
+          "note": "Completing the BS (S9520) opens the occupations MDC maps that degree to.",
+          "occupations": [
+            {
+              "title": "Data Scientists",
+              "soc": "15-2051",
+              "median_pay": 120230,
+              "outlook_pct": 35
+            },
+            {
+              "title": "Software Developers",
+              "soc": "15-1252",
+              "median_pay": 135980,
+              "outlook_pct": 10
+            }
+          ]
+        }
+      }
+    },
+    "S9520": {
+      "code": "S9520",
+      "name": "Applied Artificial Intelligence",
+      "degree": "BS",
+      "credits": 120,
+      "effective_term": "Program sheet Fall 2024 (2247); sequence guide Spring 2026 (2263)",
+      "sources": [
+        "https://specialreports.mdc.edu/academics/programs/ps/S9520.pdf",
+        "https://www.mdc.edu/academics/programs/csg/BS_AppliedArtificialIntelligence_csg.pdf",
+        "https://changemaking.mdc.edu/appliedaibs/admission-requirements.aspx",
+        "https://www.mdc.edu/student-financial-services/tuition-fees/"
+      ],
+      "admission": {
+        "prior_degree": "AA, AS, or 60+ college credits including gen-ed",
+        "min_gpa": 2.5,
+        "min_grade": "C",
+        "prerequisites": [
+          "CAI 1001C",
+          "CAI 2100C",
+          "CAI 2300C",
+          "COP 1047C",
+          "MAC 1105",
+          "STA 2023"
+        ],
+        "notes": []
+      },
+      "blocks": {
+        "general_education": 36,
+        "lower_division_technology": 31,
+        "upper_division": 35,
+        "program_electives": 18
+      },
+      "gen_ed": [],
+      "courses": [
+        {
+          "code": "CAI 1001C",
+          "title": "Artificial Intelligence (AI) Thinking",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "COP 1047C",
+          "title": "Introduction to Python Programming",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "CAI 2100C",
+          "title": "Machine Learning Foundations",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 1001C",
+            "COP 1047C"
+          ]
+        },
+        {
+          "code": "CAI 2300C",
+          "title": "Introduction to Natural Language Processing",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 2100C"
+          ]
+        },
+        {
+          "code": "CAI 2840C",
+          "title": "Introduction to Computer Vision",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": [
+            "CAI 2100C"
+          ]
+        },
+        {
+          "code": "COP 2800",
+          "title": "Java Programming",
+          "credits": 4,
+          "division": "lower",
+          "prerequisites": [
+            "COP 1047C or COP 1334 or COP 2270"
+          ]
+        },
+        {
+          "code": "PHI 2680",
+          "title": "Artificial Intelligence and Ethics",
+          "credits": 3,
+          "division": "lower",
+          "prerequisites": []
+        },
+        {
+          "code": "CAI 3303C",
+          "title": "Natural Language Processing",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 2300C"
+          ]
+        },
+        {
+          "code": "CAI 3821C",
+          "title": "Computational Methods and Applications for AI 1",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 2100C",
+            "COP 1047C",
+            "MAC 1105",
+            "STA 2023"
+          ]
+        },
+        {
+          "code": "CAI 3822C",
+          "title": "Computational Methods and Applications for AI 2",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 3821C"
+          ]
+        },
+        {
+          "code": "COP 3530",
+          "title": "Data Structures",
+          "credits": 4,
+          "division": "upper",
+          "prerequisites": [
+            "COP 2800"
+          ]
+        },
+        {
+          "code": "CAI 4505C",
+          "title": "Artificial Intelligence",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 3822C",
+            "COP 3530"
+          ]
+        },
+        {
+          "code": "CAI 4510C",
+          "title": "Machine Intelligence",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 3822C",
+            "COP 3530"
+          ]
+        },
+        {
+          "code": "CAI 4420C",
+          "title": "Applied Decision and Optimization Theory",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 4505C"
+          ]
+        },
+        {
+          "code": "CAI 4830C",
+          "title": "Simulation for Applied AI",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [],
+          "corequisites": [
+            "CAI 4505C (pre/co)"
+          ]
+        },
+        {
+          "code": "CAI 4525C",
+          "title": "AI Systems Automation",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 4505C",
+            "CAI 4510C"
+          ]
+        },
+        {
+          "code": "CAI 4950C",
+          "title": "AI Capstone",
+          "credits": 3,
+          "division": "upper",
+          "prerequisites": [
+            "CAI 4510C",
+            "CAI 4420C",
+            "CAI 4830C"
+          ],
+          "corequisites": [
+            "CAI 4525C (pre/co)"
+          ]
+        },
+        {
+          "code": "CAP 3330",
+          "title": "Upper-division statistics option",
+          "credits": 4,
+          "division": "upper",
+          "prerequisites": [
+            "STA 2023"
+          ]
+        },
+        {
+          "code": "STA 3164",
+          "title": "Upper-division statistics option",
+          "credits": 4,
+          "division": "upper",
+          "prerequisites": [
+            "STA 2023"
+          ]
+        }
+      ],
+      "electives": {
+        "credits_total": 18,
+        "slot_credits": 3,
+        "slot_credits_basis": "Totals 60 credits with 3-credit electives. MDC's part-time plan for AA students covers the same courses over 7 semesters.",
+        "options": [],
+        "allowed_lists": [
+          {
+            "label": "Program sheet (Fall 2024)",
+            "patterns": [
+              "COP*",
+              "MAC*",
+              "MAD*",
+              "MAP*",
+              "CAI 2820C",
+              "CAP 1788",
+              "CAP 2761C",
+              "CAP 3321C",
+              "CAP 4744",
+              "CGS 1540C",
+              "CIS 3368",
+              "CTS 1120",
+              "CTS 1145",
+              "ETS 1603C",
+              "GEB 1432",
+              "HSC 2060",
+              "MAD 1100"
+            ]
+          },
+          {
+            "label": "Sequence guide (Spring 2026)",
+            "patterns": [
+              "CAI*",
+              "CAP*",
+              "CEN*",
+              "CET*",
+              "CGS*",
+              "CIS*",
+              "CNT*",
+              "COP*",
+              "CTS*",
+              "MAC*",
+              "MAD*",
+              "MAP*",
+              "CIS 3368",
+              "ETS 1603C",
+              "GEB 1432",
+              "HSC 2060"
+            ]
+          }
+        ],
+        "note": "The two lists differ; confirm with an advisor for your catalog year."
+      },
+      "sequence_basis": "after_associate",
+      "entry_credits": 60,
+      "sequence": [
+        {
+          "term": "Semester 1",
+          "courses": [
+            "CAI 3303C",
+            "CAI 3821C",
+            "COP 2800",
+            "PHI 2680"
+          ],
+          "credits": 13
+        },
+        {
+          "term": "Semester 2",
+          "courses": [
+            "CAI 2840C",
+            "CAI 3822C",
+            "COP 3530",
+            "Elective"
+          ],
+          "credits": 13
+        },
+        {
+          "term": "Semester 3",
+          "courses": [
+            "CAI 4505C",
+            "CAP 3330 or STA 3164",
+            "Elective"
+          ],
+          "credits": 10
+        },
+        {
+          "term": "Semester 4",
+          "courses": [
+            "CAI 4420C",
+            "CAI 4510C",
+            "CAI 4830C",
+            "Elective"
+          ],
+          "credits": 12
+        },
+        {
+          "term": "Semester 5",
+          "courses": [
+            "CAI 4525C",
+            "CAI 4950C",
+            "Elective",
+            "Elective"
+          ],
+          "credits": 12
+        }
+      ],
+      "sequence_note": "Totals 60 credits with 3-credit electives. MDC's part-time plan for AA students covers the same courses over 7 semesters.",
+      "competencies": [
+        "Computer competency",
+        "Foreign language (2 years HS or elementary 2 level)",
+        "Civic literacy (AMH 2010/AMH 2020/POS 2041 + assessment)"
+      ],
+      "notes": [],
+      "career": {
+        "summary": "MDC's state proposal for S9520 crosswalks the degree (CIP 11.0102, Artificial Intelligence) to Data Scientists (15-2051) and Software Developers (15-1252); MDC lists job titles such as AI analyst, AI programmer and NLP specialist. Computer and Information Research Scientists is the graduate-level next step.",
+        "data_source": "BLS Occupational Outlook Handbook; pay is May 2025, projections 2025-2035",
+        "occupations": [
+          {
+            "title": "Data Scientists",
+            "soc": "15-2051",
+            "primary": true,
+            "median_pay": 120230,
+            "median_hourly": 57.8,
+            "pay_low_10": 67240,
+            "pay_high_10": 199130,
+            "entry_education": "Bachelor's degree",
+            "work_experience": "None",
+            "on_the_job_training": "None",
+            "jobs_2025": 275600,
+            "outlook_pct": 35,
+            "outlook_label": "Much faster than average",
+            "employment_change": 95400,
+            "annual_openings": 24800,
+            "duties": [
+              "Identify which data are available and useful for a project",
+              "Collect, categorize, and analyze data",
+              "Build, validate, test, and update algorithms and models",
+              "Use data visualization software to present findings",
+              "Recommend business actions to stakeholders based on their analysis"
+            ],
+            "source": "https://www.bls.gov/ooh/math/data-scientists.htm"
+          },
+          {
+            "title": "Software Developers",
+            "soc": "15-1252",
+            "primary": true,
+            "median_pay": 135980,
+            "pay_low_10": 82460,
+            "pay_high_10": 214670,
+            "entry_education": "Bachelor's degree",
+            "jobs_2025": 1717800,
+            "outlook_pct": 10,
+            "annual_openings": 106100,
+            "annual_openings_note": "BLS gives openings only for the combined group (developers, QA analysts and testers).",
+            "group_median_pay": 134040,
+            "duties": [
+              "Analyze user needs and design and develop software to meet them",
+              "Recommend upgrades for existing programs and systems",
+              "Design the parts of an application and plan how they work together",
+              "Create models and diagrams that programmers use to write code",
+              "Maintain and test programs",
+              "Document each aspect of an application or system"
+            ],
+            "source": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+          },
+          {
+            "title": "Computer and Information Research Scientists",
+            "soc": "15-1221",
+            "primary": false,
+            "requires_further_education": "Master's degree",
+            "median_pay": 140300,
+            "median_hourly": 67.45,
+            "pay_low_10": 82200,
+            "pay_high_10": 230630,
+            "entry_education": "Master's degree",
+            "jobs_2025": 38600,
+            "outlook_pct": 22,
+            "outlook_label": "Much faster than average",
+            "employment_change": 8400,
+            "annual_openings": 2900,
+            "duties": [
+              "Explore computing problems and develop theories and models to address them",
+              "Collaborate with scientists and engineers on complex computing problems",
+              "Design and run experiments to test software systems, often using data science and machine learning",
+              "Analyze experimental results and publish findings",
+              "Develop new programming languages, software systems, and tools"
+            ],
+            "source": "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm"
+          }
+        ],
+        "proposal_source": "https://origin.fldoe.org/core/fileparse.php/20653/urlt/18-2.pdf"
+      },
+      "tuition_check": {
+        "credit_mix": "35 upper core + 10 lower (COP 2800, PHI 2680, CAI 2840C) + 15 elective credits",
+        "in_state": {
+          "low": 7501.65,
+          "high": 7676.7
+        },
+        "out_of_state": {
+          "low": 28821.7,
+          "high": 30823.6
+        },
+        "note": "Low = all 15 elective credits taken at the lower-division rate; high = all at the upper-division rate."
+      }
+    }
+  },
   "careers": [
     {
       "id": "architect",
@@ -408,6 +2157,11 @@
           ]
         },
         "fiu_transfer": {
+          "total_credits": 174,
+          "remaining_after_aa_estimate": 114,
+          "remaining_note": "Conditional estimate: the FIU degree total minus a 60-credit AA. Not a confirmed transfer award or degree audit; FIU evaluates how credits apply to the program. Missing prerequisites add credits.",
+          "credits_source": "https://catalog.fiu.edu/programs/ARCX:MARCH",
+          "credit_split_assumption": {"undergrad_credits":60,"grad_credits":54,"note":"Assumption to confirm with FIU; not guaranteed by the published total. Students are undergraduates until 120 earned credits; cost needs FIU's graduate per-credit rate for the last 54."},
           "degree": "Accelerated Master of Architecture (master's only, no bachelor's awarded)",
           "catalog_year": "2026-2027",
           "min_gpa": 3.0,
@@ -957,6 +2711,10 @@
           ]
         },
         "fiu_transfer": {
+          "total_credits": 128,
+          "remaining_after_aa_estimate": 68,
+          "remaining_note": "Conditional estimate: the FIU degree total minus a 60-credit AA. Not a confirmed transfer award or degree audit; FIU evaluates how credits apply to the program. Missing prerequisites add credits.",
+          "credits_source": "https://mme.fiu.edu/mechanical-engineering-bs",
           "degree": "B.S. Mechanical Engineering (ABET)",
           "catalog_year": "2026-2027",
           "min_gpa": 2.0,
@@ -1465,6 +3223,11 @@
           "source": "https://cuv.mdc.edu/supervisionmanagement/admission-requirements.aspx"
         },
         "fiu_transfer": {
+          "total_credits": 120,
+          "remaining_after_aa_estimate": 60,
+          "remaining_note": "Conditional estimate: the FIU degree total minus a 60-credit AA. Not a confirmed transfer award or degree audit; FIU evaluates how credits apply to the program. Missing prerequisites add credits.",
+          "credits_source": "https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-travel-and-tourism-management.php",
+          "major_note": "FIU's BS in Hospitality and Tourism Management, Travel and Tourism Management major.",
           "degree": "B.S. Hospitality & Tourism Management (Chaplin School)",
           "catalog_year": "2025-2026",
           "min_gpa": 2.0,
@@ -1695,6 +3458,23 @@
         "source": "https://www.bls.gov/OOH/computer-and-information-technology/information-security-analysts.htm"
       },
       "educational_pathway": {
+        "program_switches": [
+          {
+            "from": "25079",
+            "to": "25080",
+            "label": "Switch your A.S. from Cybersecurity to Applied AI"
+          },
+          {
+            "from": "25079",
+            "to": "S9520",
+            "label": "After your Cybersecurity A.S., go into the Applied AI B.S."
+          },
+          {
+            "from": "S9515",
+            "to": "S9520",
+            "label": "Switch from the Cybersecurity B.S. to the Applied AI B.S."
+          }
+        ],
         "primary_program": {
           "code": "25079",
           "name": "Cybersecurity",
@@ -2022,6 +3802,10 @@
           ]
         },
         "fiu_transfer": {
+          "total_credits": 120,
+          "remaining_after_aa_estimate": 60,
+          "remaining_note": "Conditional estimate: the FIU degree total minus a 60-credit AA. Not a confirmed transfer award or degree audit; FIU evaluates how credits apply to the program. Missing prerequisites add credits.",
+          "credits_source": "https://catalog.fiu.edu/programs/CYBER:BS/requirements-uz47h",
           "degree": "B.S. Cybersecurity",
           "catalog_year": "2026-2027",
           "min_gpa": 2.0,
@@ -2456,6 +4240,10 @@
           "source": "https://ceaudio.mdc.edu/informationsystemsnetworking/admission-requirements.aspx"
         },
         "fiu_transfer": {
+          "total_credits": 120,
+          "remaining_after_aa_estimate": 60,
+          "remaining_note": "Conditional estimate: the FIU degree total minus a 60-credit AA. Not a confirmed transfer award or degree audit; FIU evaluates how credits apply to the program. Missing prerequisites add credits.",
+          "credits_source": "https://fiuonline.fiu.edu/programs/online-undergraduate-degrees/bachelor-of-science-in-information-technology.php",
           "degree": "B.S. Information Technology (majors: DevOps, Software)",
           "catalog_year": "2026-2027",
           "min_gpa": 2.0,
